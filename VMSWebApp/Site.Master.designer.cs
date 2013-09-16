@@ -13,6 +13,15 @@ namespace VMSWebApp {
     public partial class SiteMaster {
         
         /// <summary>
+        /// sideBarPH control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder sideBarPH;
+        
+        /// <summary>
         /// mainPH control.
         /// </summary>
         /// <remarks>
@@ -20,5 +29,14 @@ namespace VMSWebApp {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ContentPlaceHolder mainPH;
+        
+        /// <summary>
+        /// bottomPH control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder bottomPH;
     }
 }

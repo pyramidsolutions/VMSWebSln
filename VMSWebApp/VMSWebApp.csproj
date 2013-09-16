@@ -38,6 +38,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DotM.Html5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cf15bd0a8dbc673d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\DotM\DotM.Html5\Bin\DotM.Html5.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -127,6 +131,31 @@
     <Content Include="Account\OpenAuthProviders.ascx" />
     <Content Include="Account\Register.aspx" />
     <Content Include="Account\RegisterExternalLogin.aspx" />
+    <Content Include="App_Themes\css\component.css" />
+    <Content Include="App_Themes\css\default.css" />
+    <Content Include="App_Themes\css\ie7-hacks.css" />
+    <Content Include="App_Themes\css\ie8-hacks.css" />
+    <Content Include="App_Themes\css\jflickrfeed.css" />
+    <Content Include="App_Themes\css\jquery.tweet.css" />
+    <Content Include="App_Themes\css\nivo-slider.css" />
+    <Content Include="App_Themes\css\reset.css" />
+    <Content Include="App_Themes\css\social-icons.css" />
+    <Content Include="App_Themes\css\style.css" />
+    <Content Include="App_Themes\css\styled-elements.css" />
+    <Content Include="App_Themes\css\superfish-left.css" />
+    <Content Include="App_Themes\css\superfish.css" />
+    <Content Include="App_Themes\css\tabs.css" />
+    <Content Include="App_Themes\css\typography.css" />
+    <Content Include="Login\LoginMain.aspx" />
+    <Content Include="ManagementInterfaces\AddCompany.aspx" />
+    <Content Include="ManagementInterfaces\AddCustomer.aspx" />
+    <Content Include="ManagementInterfaces\AddVehicle.aspx" />
+    <Content Include="ManagementInterfaces\css\component.css" />
+    <Content Include="ManagementInterfaces\css\default.css" />
+    <Content Include="ManagementInterfaces\fonts\ecoico.svg" />
+    <Content Include="ManagementInterfaces\fonts\fontawesome.svg" />
+    <Content Include="BasePages\index.html" />
+    <Content Include="js\modernizr.custom.js" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
@@ -183,19 +212,8 @@
     <Content Include="Content\themes\base\minified\jquery.ui.slider.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.tabs.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
-    <Content Include="css\ie7-hacks.css" />
-    <Content Include="css\ie8-hacks.css" />
-    <Content Include="css\jflickrfeed.css" />
-    <Content Include="css\jquery.tweet.css" />
-    <Content Include="css\nivo-slider.css" />
-    <Content Include="css\reset.css" />
-    <Content Include="css\social-icons.css" />
-    <Content Include="css\style.css" />
-    <Content Include="css\styled-elements.css" />
-    <Content Include="css\superfish-left.css" />
-    <Content Include="css\superfish.css" />
-    <Content Include="css\tabs.css" />
-    <Content Include="css\typography.css" />
+    <Content Include="Forms\index-nojs.html" />
+    <Content Include="Forms\index.html" />
     <Content Include="Images\1-ie.png" />
     <Content Include="Images\1.png" />
     <Content Include="Images\2-ie.png" />
@@ -705,8 +723,25 @@
     <Content Include="js\tweet\index.html" />
     <Content Include="js\tweet\jquery.tweet.js" />
     <Content Include="img\logo2.jpg" />
+    <Content Include="Login\css\animate-custom.css" />
+    <Content Include="Login\css\demo.css" />
+    <Content Include="Login\css\fonts\BebasNeue-webfont.svg" />
+    <Content Include="Login\css\fonts\Dharma Type Font License.txt" />
+    <Content Include="Login\css\fonts\fontomas-webfont.svg" />
+    <Content Include="Login\css\fonts\franchise-bold-webfont.svg" />
+    <Content Include="Login\css\style.css" />
+    <Content Include="Login\css\style2.css" />
+    <Content Include="Login\css\style3.css" />
+    <Content Include="Login\images\bg.jpg" />
+    <Content Include="Login\images\ImageAttribution.txt" />
+    <Content Include="Login\index.html" />
+    <Content Include="Login\index2.html" />
+    <Content Include="Login\index3.html" />
+    <Content Include="AddCompany.aspx" />
+    <Content Include="ManagementInterfaces\images\bg.jpg" />
+    <Content Include="ManagementInterfaces\images\ImageAttribution.txt" />
+    <Content Include="ManagementInterfaces\ManageCustomers.aspx" />
     <Content Include="packages.config" />
-    <Content Include="css\.DS_Store" />
     <Content Include="Images\.DS_Store" />
     <Content Include="img\.DS_Store" />
     <Content Include="img\dummies\.DS_Store" />
@@ -722,6 +757,30 @@
     <Content Include="js\superfish-1.4.8\css\.DS_Store" />
     <Content Include="js\superfish-1.4.8\images\.DS_Store" />
     <Content Include="js\superfish-1.4.8\js\.DS_Store" />
+    <Content Include="Login\css\fonts\BebasNeue-webfont.eot" />
+    <Content Include="Login\css\fonts\BebasNeue-webfont.ttf" />
+    <Content Include="Login\css\fonts\BebasNeue-webfont.woff" />
+    <Content Include="Login\css\fonts\fontomas-webfont.eot" />
+    <Content Include="Login\css\fonts\fontomas-webfont.ttf" />
+    <Content Include="Login\css\fonts\fontomas-webfont.woff" />
+    <Content Include="Login\css\fonts\franchise-bold-webfont.eot" />
+    <Content Include="Login\css\fonts\franchise-bold-webfont.ttf" />
+    <Content Include="Login\css\fonts\franchise-bold-webfont.woff" />
+    <Content Include="ManagementInterfaces\css\.DS_Store" />
+    <Content Include="ManagementInterfaces\fonts\.DS_Store" />
+    <Content Include="ManagementInterfaces\fonts\ecoico.eot" />
+    <Content Include="ManagementInterfaces\fonts\ecoico.ttf" />
+    <Content Include="ManagementInterfaces\fonts\ecoico.woff" />
+    <Content Include="ManagementInterfaces\fonts\fontawesome.eot" />
+    <Content Include="ManagementInterfaces\fonts\fontawesome.ttf" />
+    <Content Include="ManagementInterfaces\fonts\fontawesome.woff" />
+    <Content Include="ManagementInterfaces\fonts\license_ecoico.md" />
+    <Content Include="ManagementInterfaces\fonts\license_fontawesome.md" />
+    <Content Include="ManagementInterfaces\js\.DS_Store" />
+    <Content Include="App_Themes\css\.DS_Store" />
+    <Content Include="ManagementInterfaces\Management.Master" />
+    <Content Include="Login\Login.Master" />
+    <None Include="Properties\PublishProfiles\VMSLocal.pubxml" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.7.1.js" />
     <Content Include="Scripts\jquery-1.7.1.min.js" />
@@ -904,6 +963,62 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="AddCompany.aspx.cs">
+      <DependentUpon>AddCompany.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddCompany.aspx.designer.cs">
+      <DependentUpon>AddCompany.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login\Login.Master.cs">
+      <DependentUpon>Login.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login\Login.Master.designer.cs">
+      <DependentUpon>Login.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Login\LoginMain.aspx.cs">
+      <DependentUpon>LoginMain.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login\LoginMain.aspx.designer.cs">
+      <DependentUpon>LoginMain.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManagementInterfaces\AddCompany.aspx.cs">
+      <DependentUpon>AddCompany.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManagementInterfaces\AddCompany.aspx.designer.cs">
+      <DependentUpon>AddCompany.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManagementInterfaces\AddCustomer.aspx.cs">
+      <DependentUpon>AddCustomer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManagementInterfaces\AddCustomer.aspx.designer.cs">
+      <DependentUpon>AddCustomer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManagementInterfaces\AddVehicle.aspx.cs">
+      <DependentUpon>AddVehicle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManagementInterfaces\AddVehicle.aspx.designer.cs">
+      <DependentUpon>AddVehicle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManagementInterfaces\ManageCustomers.aspx.cs">
+      <DependentUpon>ManageCustomers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManagementInterfaces\ManageCustomers.aspx.designer.cs">
+      <DependentUpon>ManageCustomers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManagementInterfaces\Management.Master.cs">
+      <DependentUpon>Management.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManagementInterfaces\Management.Master.designer.cs">
+      <DependentUpon>Management.Master</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
@@ -915,6 +1030,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="App_Themes\Theme1\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Account\Web.config" />
@@ -927,6 +1043,16 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MVS_BLL\MVS_BLL.csproj">
+      <Project>{a7a88521-891b-4ff6-96f7-f52c08fd648d}</Project>
+      <Name>MVS_BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UtilityLibrary\UtilityLibrary.csproj">
+      <Project>{057591f1-0541-4807-8437-7b4d86f65c2d}</Project>
+      <Name>UtilityLibrary</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -941,7 +1067,7 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerPort>37415</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>http://localhost:10972/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
