@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVS_BLL", "MVS_BLL\MVS_BLL.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtilityLibrary", "UtilityLibrary\UtilityLibrary.csproj", "{057591F1-0541-4807-8437-7B4D86F65C2D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVSThemeTemplateWeb", "MVSThemeTemplateWeb\MVSThemeTemplateWeb.csproj", "{F07BE2C8-62F0-40EA-86AD-2671F8ECCE3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVS_Enum", "MVS_Enum\MVS_Enum.csproj", "{B9881B2E-3E98-4F93-AF59-0C6D0A2B6A5E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{057591F1-0541-4807-8437-7B4D86F65C2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{057591F1-0541-4807-8437-7B4D86F65C2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{057591F1-0541-4807-8437-7B4D86F65C2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F07BE2C8-62F0-40EA-86AD-2671F8ECCE3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F07BE2C8-62F0-40EA-86AD-2671F8ECCE3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F07BE2C8-62F0-40EA-86AD-2671F8ECCE3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F07BE2C8-62F0-40EA-86AD-2671F8ECCE3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9881B2E-3E98-4F93-AF59-0C6D0A2B6A5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9881B2E-3E98-4F93-AF59-0C6D0A2B6A5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9881B2E-3E98-4F93-AF59-0C6D0A2B6A5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9881B2E-3E98-4F93-AF59-0C6D0A2B6A5E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MVS_BLL.CustomDataObjects
 {
-    class LocationObject
+    public class LocationObject
     {
         public LocationObject()
         { }

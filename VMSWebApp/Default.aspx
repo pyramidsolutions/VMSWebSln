@@ -1,178 +1,142 @@
 ﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="VMSWebApp._Default" %>
 
 <asp:Content runat="server" ID="FeaturedContent" ContentPlaceHolderID="mainPH">
-    <section class="featured">
-       <div class="home-quotes">Unlimited skins options with its "Skin system" allows you to create new styles for your theme.</div>
+    	<!-- Intro -->
+					<section id="top" class="one">
+						<div class="container">
+
+							<a href="http://ineedchemicalx.deviantart.com/art/Moonscape-381829905" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
+
+							<header>
+								<h2 class="alt">This is <strong>Prologue</strong>. A <a href="http://html5up.net/license">free</a>, fully responsive<br />
+								site template by <a href="http://html5up.net">HTML5 UP</a>.</h2>
+							</header>
+							
+							<p>Ligula scelerisque justo sem accumsan diam quis. Vitae natoque dictum 
+							etiam semper magnis enim feugiat convallis convallis egestas rhoncus ridiculus 
+							in quis risus curabitur tempor. Orci penatibus quisque laoreet condimentum 
+							sollicitudin accumsan elementum.</p>
+
+							<footer>
+								<a href="#portfolio" class="button scrolly">Magna Aliquam</a>
+							</footer>
+
+						</div>
+					</section>
+					
+				<!-- Portfolio -->
+					<section id="portfolio" class="two">
+						<div class="container">
+					
+							<header>
+								<h2>Portfolio</h2>
+							</header>
+							
+							<p>Vitae natoque dictum etiam semper magnis enim feugiat convallis convallis
+							egestas rhoncus ridiculus in quis risus amet curabitur tempor orci penatibus.
+							Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis 
+							fusce hendrerit lacus ridiculus.</p>
+						
+							<div class="row">
+								<div class="4u">
+									<article class="item">
+										<a href="http://ineedchemicalx.deviantart.com/art/A-million-suns-384369739" class="image full"><img src="images/pic02.jpg" alt="" /></a>
+										<header>
+											<h3>Ipsum Feugiat</h3>
+										</header>
+									</article>
+									<article class="item">
+										<a href="http://ineedchemicalx.deviantart.com/art/Mind-is-a-clear-stage-375431607" class="image full"><img src="images/pic03.jpg" alt="" /></a>
+										<header>
+											<h3>Rhoncus Semper</h3>
+										</header>
+									</article>
+								</div>
+								<div class="4u">
+									<article class="item">
+										<a href="http://ineedchemicalx.deviantart.com/art/You-really-got-me-345249340" class="image full"><img src="images/pic04.jpg" alt="" /></a>
+										<header>
+											<h3>Magna Nullam</h3>
+										</header>
+									</article>
+									<article class="item">
+										<a href="http://ineedchemicalx.deviantart.com/art/Ad-infinitum-354203162" class="image full"><img src="images/pic05.jpg" alt="" /></a>
+										<header>
+											<h3>Natoque Vitae</h3>
+										</header>
+									</article>
+								</div>
+								<div class="4u">
+									<article class="item">
+										<a href="http://ineedchemicalx.deviantart.com/art/Elysium-355393900" class="image full"><img src="images/pic06.jpg" alt="" /></a>
+										<header>
+											<h3>Dolor Penatibus</h3>
+										</header>
+									</article>
+									<article class="item">
+										<a href="http://ineedchemicalx.deviantart.com/art/Emperor-of-the-Stars-370265193" class="image full"><img src="images/pic07.jpg" alt="" /></a>
+										<header>
+											<h3>Orci Convallis</h3>
+										</header>
+									</article>
+								</div>
+							</div>
+
+						</div>
+					</section>
+
+				<!-- About Me -->
+					<section id="about" class="three">
+						<div class="container">
+
+							<header>
+								<h2>About Me</h2>
+							</header>
+
+							<a href="http://ineedchemicalx.deviantart.com/art/Pasadena-357650036" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
+							
+							<p>Tincidunt eu elit diam magnis pretium accumsan etiam id urna. Ridiculus 
+							ultricies curae quis et rhoncus velit. Lobortis elementum aliquet nec vitae 
+							laoreet eget cubilia quam non etiam odio tincidunt montes. Elementum sem 
+							parturient nulla quam placerat viverra mauris non cum elit tempus ullamcorper 
+							dolor. Libero rutrum ut lacinia donec curae mus vel quisque sociis nec 
+							ornare iaculis.</p>
+
+						</div>
+					</section>
 			
-			<!-- Slider -->
-			<div id="slider">
-			    <a ><img src="images/1.png" alt="" /></a>
-			    <a ><img src="images/2.png" alt="" /></a>
-			    <a ><img src="images/3.png" alt=""/></a>
-			</div>
-			<!-- ENDS Slider -->
-						
-			<!-- CONTENT -->
-			<div id="content">
-				<!-- PAGE CONTENT -->
-				<div id="page-content">
-					
-					<!-- feature blocks -->
-					<h1 class="header-line">FEATURE PAGES</h1>
-					<ul  class="feature-blocks" >
-						<li>
-							<div class="block">
-								<a href="single.html" title="Title" ><img class="cover" src="img/dummies/272x250.jpg" alt="Alt text" title="Title"/></a>
-							</div>
-							<div class="the-excerpt">
-								Pellentesque habitant morbi tristique senectus et netus et malesuada fames.
-							</div>
-							<a href="single.html"  class="link-button"><span>Read more</span></a>
-						</li>
-						<li>
-							<div class="block">
-								<a href="single.html"  ><img class="cover" src="img/dummies/272x250.jpg" alt="Alt text" title="Title"/></a>
-							</div>
-							<div class="the-excerpt">
-								Pellentesque habitant morbi tristique senectus et netus et malesuada fames.
-							</div>
-							<a href="single.html"  class="link-button"><span>Read more</span></a>
-						</li>
-						<li>
-							<div class="block">
-								<a href="single.html" title="Title" ><img class="cover" src="img/dummies/272x250.jpg" alt="Alt text" title="Title"/></a>
-							</div>
-							<div class="the-excerpt">
-								Pellentesque habitant morbi tristique senectus et netus et malesuada fames.
-							</div>
-							<a href="single.html"  class="link-button"><span>Read more</span></a>
-						</li>
-						<li>
-							<div class="block">
-								<a href="single.html" title="Title" ><img class="cover" src="img/dummies/272x250.jpg" alt="Alt text" title="Title"/></a>
-							</div>
-							<div class="the-excerpt">
-								Pellentesque habitant morbi tristique senectus et netus et malesuada fames.
-							</div>
-							<a href="single.html"  class="link-button"><span>Read more</span></a>
-						</li>
-					</ul>
-					<!-- ENDS feature blocks -->
-										
-					
-					<!-- TABS -->
-					<!-- the tabs -->
-					<ul class="tabs">
-						<li><a href="#">Information</a></li>
-						<li><a href="#">News</a></li>
-						<li><a href="#">Recent videos</a></li>
-						<li><a href="#">Latest gallery</a></li>
-						
-					</ul>
-					
-					<!-- tab "panes" -->
-					<div class="panes">
-					
-						<!-- Information  -->
-						<div>
+				<!-- Contact -->
+					<section id="contact" class="four">
+						<div class="container">
+
+							<header>
+								<h2>Contact</h2>
+							</header>
+
+							<p>Elementum sem parturient nulla quam placerat viverra 
+							mauris non cum elit tempus ullamcorper dolor. Libero rutrum ut lacinia 
+							donec curae mus. Eleifend id porttitor ac ultricies lobortis sem nunc 
+							orci ridiculus faucibus a consectetur. Porttitor curae mauris urna mi dolor.</p>
 							
-							<p class="info-box">
-								<img src="img/mono-icons/smile32.png" title="smile32.png" alt="smile32.png" class="alignleft" />
-								Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis egestas tortor quam, feugiat vitae.
-							</p>
-						
-							<p class="info-box">
-								<img src="img/mono-icons/boxdownload32.png" title="boxdownload32.png" alt="" class="alignleft" />
-								Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis egestas tortor quam, feugiat vitae.
-							</p>
-							
-							<p class="info-box">
-								<img src="img/mono-icons/risegraph32.png" title="risegraph32.png" alt="risegraph32.png" class="alignleft" />
-								Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis egestas tortor quam, feugiat vitae.
-							</p>
-							
-							<p class="info-box">
-								<img src="img/mono-icons/camera32.png" title="camera32.png" alt="" class="alignleft" />
-								Pellentesque habitant morbi ser fames turpis egestas tortor malesuada fames ete turpis egestas tortor quam, feugiat vitae.
-							</p>
-						
-						</div>
-						<!-- ENDS Information -->
-						
-						<!-- Post list -->
-						<div>
-							<ul class="blocks-list">
-								<li>
-									<a href="single.html" class="border"><img src="img/dummies/114x86.jpg" alt="Post" /></a>
-									<div class="the-excerpt">
-										<strong>Pellentesque habitant morbi tristique</strong>  senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.																			<a href="single.html" class="link-arrow">Read more &#8594;</a>
+							<form method="post" action="#">
+								<div class="row half">
+									<div class="6u"><input type="text" class="text" name="name" placeholder="Name" /></div>
+									<div class="6u"><input type="text" class="text" name="email" placeholder="Email" /></div>
+								</div>
+								<div class="row half">
+									<div class="12u">
+										<textarea name="message" placeholder="Message"></textarea>
 									</div>
-								</li>
-								<li>
-									<a href="single.html" class="border"><img src="img/dummies/114x86.jpg" alt="Post" /></a>
-									<div class="the-excerpt">
-										<strong>Pellentesque habitant morbi tristique</strong>  senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.																			<a href="single.html" class="link-arrow">Read more &#8594;</a>
+								</div>
+								<div class="row">
+									<div class="12u">
+										<a href="#" class="button submit">Send Message</a>
 									</div>
-								</li>
-								<li>
-									<a href="single.html" class="border"><img src="img/dummies/114x86.jpg" alt="Post" /></a>
-									<div class="the-excerpt">
-										<strong>Pellentesque habitant morbi tristique</strong>  senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.																			<a href="single.html" class="link-arrow">Read more &#8594;</a>
-									</div>
-								</li>
-							</ul>
+								</div>
+							</form>
+
 						</div>
-						<!-- ENDS Post list -->
-					
-						
-						<!-- img gallery -->
-						<div>
-							<ul class="blocks-gallery">
-								<li><a class="border" href="http://www.youtube.com/watch?v=twuScTcDP_Q" title="The Video" rel="prettyPhoto"><img src="img/dummies/114x86.jpg" alt="Post" /></a></li>
-								<li><a class="border" href="http://www.youtube.com/watch?v=twuScTcDP_Q" title="The Video" rel="prettyPhoto"><img src="img/dummies/114x86.jpg" alt="Post" /></a></li>
-								<li><a class="border" href="http://www.youtube.com/watch?v=twuScTcDP_Q" title="The Video" rel="prettyPhoto"><img src="img/dummies/114x86.jpg" alt="Post" /></a></li>
-								<li><a class="border" href="http://www.youtube.com/watch?v=twuScTcDP_Q" title="The Video" rel="prettyPhoto"><img src="img/dummies/114x86.jpg" alt="Post" /></a></li>
-								<li><a class="border" href="http://www.youtube.com/watch?v=twuScTcDP_Q" title="The Video" rel="prettyPhoto"><img src="img/dummies/114x86.jpg" alt="Post" /></a></li>
-								<li><a class="border" href="http://www.youtube.com/watch?v=twuScTcDP_Q" title="The Video" rel="prettyPhoto"><img src="img/dummies/114x86.jpg" alt="Post" /></a></li>
-								<li><a class="border" href="http://www.youtube.com/watch?v=twuScTcDP_Q" title="The Video" rel="prettyPhoto"><img src="img/dummies/114x86.jpg" alt="Post" /></a></li>
-								<li><a class="border" href="http://www.youtube.com/watch?v=twuScTcDP_Q" title="The Video" rel="prettyPhoto"><img src="img/dummies/114x86.jpg" alt="Post" /></a></li>
-								<li><a class="border" href="http://www.youtube.com/watch?v=twuScTcDP_Q" title="The Video" rel="prettyPhoto"><img src="img/dummies/114x86.jpg" alt="Post" /></a></li>
-								<li><a class="border" href="http://www.youtube.com/watch?v=twuScTcDP_Q" title="The Video" rel="prettyPhoto"><img src="img/dummies/114x86.jpg" alt="Post" /></a></li>
-								<li><a class="border" href="http://www.youtube.com/watch?v=twuScTcDP_Q" title="The Video" rel="prettyPhoto"><img src="img/dummies/114x86.jpg" alt="Post" /></a></li>
-								<li><a class="border" href="http://www.youtube.com/watch?v=twuScTcDP_Q" title="The Video" rel="prettyPhoto"><img src="img/dummies/114x86.jpg" alt="Post" /></a></li>
-							</ul>
-						</div>
-						<!-- ENDS img gallery -->
-						
-						<!-- img gallery -->
-						<div>
-							<ul class="blocks-gallery">
-								<li><a href="img/dummies/584x300.jpg" class="border fancybox" title="An image"><img src="img/dummies/114x86.jpg" alt="Post" /></a></li>
-								<li><a href="img/dummies/584x300.jpg" class="border fancybox" title="An image"><img src="img/dummies/114x86.jpg" alt="Post" /></a></li>
-								<li><a href="img/dummies/584x300.jpg" class="border fancybox" title="An image"><img src="img/dummies/114x86.jpg" alt="Post" /></a></li>
-								<li><a href="img/dummies/584x300.jpg" class="border fancybox" title="An image"><img src="img/dummies/114x86.jpg" alt="Post" /></a></li>
-								<li><a href="img/dummies/584x300.jpg" class="border fancybox" title="An image"><img src="img/dummies/114x86.jpg" alt="Post" /></a></li>
-								<li><a href="img/dummies/584x300.jpg" class="border fancybox" title="An image"><img src="img/dummies/114x86.jpg" alt="Post" /></a></li>
-								<li><a href="img/dummies/584x300.jpg" class="border fancybox" title="An image"><img src="img/dummies/114x86.jpg" alt="Post" /></a></li>
-								<li><a href="img/dummies/584x300.jpg" class="border fancybox" title="An image"><img src="img/dummies/114x86.jpg" alt="Post" /></a></li>
-								<li><a href="img/dummies/584x300.jpg" class="border fancybox" title="An image"><img src="img/dummies/114x86.jpg" alt="Post" /></a></li>
-								<li><a href="img/dummies/584x300.jpg" class="border fancybox" title="An image"><img src="img/dummies/114x86.jpg" alt="Post" /></a></li>
-								<li><a href="img/dummies/584x300.jpg" class="border fancybox" title="An image"><img src="img/dummies/114x86.jpg" alt="Post" /></a></li>
-								<li><a href="img/dummies/584x300.jpg" class="border fancybox" title="An image"><img src="img/dummies/114x86.jpg" alt="Post" /></a></li>
-							</ul>
-						</div>
-						<!-- ENDS img gallery -->
-						
-					</div>
-					<!-- ENDS TABS -->
-					
-					
-					
-					
-				</div>
-				<!-- ENDS PAGE-CONTENT -->
+					</section>
 			
-			</div>
-    </section>
 </asp:Content>
 

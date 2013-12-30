@@ -39,9 +39,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CustomDataObjects\AddressObject.cs" />
     <Compile Include="CustomDataObjects\CompanyObject.cs" />
     <Compile Include="CustomDataObjects\CustomerObject.cs" />
     <Compile Include="CustomDataObjects\ImprovementObject.cs" />
+    <Compile Include="CustomDataObjects\InvoiceObject.cs" />
     <Compile Include="CustomDataObjects\LocationObject.cs" />
     <Compile Include="CustomDataObjects\ManufacturerObject.cs" />
     <Compile Include="CustomDataObjects\ModelObject.cs" />
@@ -50,12 +52,27 @@
     <Compile Include="CustomDataObjects\TransactionObject.cs" />
     <Compile Include="CustomDataObjects\UserObject.cs" />
     <Compile Include="CustomDataObjects\VehicleObject.cs" />
+    <Compile Include="ManagementClasses\ManageInvoices.cs" />
+    <Compile Include="ManagementClasses\ManageManufacturer.cs" />
+    <Compile Include="ManagementClasses\ManageCustomer.cs" />
     <Compile Include="ManagementClasses\BaseMangement.cs" />
     <Compile Include="ManagementClasses\ManageCompany.cs" />
+    <Compile Include="ManagementClasses\ManageImprovement.cs" />
+    <Compile Include="ManagementClasses\ManageLocation.cs" />
+    <Compile Include="ManagementClasses\ManageModel.cs" />
+    <Compile Include="ManagementClasses\ManageServiceProvider.cs" />
+    <Compile Include="ManagementClasses\ManageServiceProviderCategory.cs" />
+    <Compile Include="ManagementClasses\ManageSupplier.cs" />
     <Compile Include="ManagementClasses\ManageUsers.cs" />
+    <Compile Include="ManagementClasses\ManageVehicle.cs" />
+    <Compile Include="ManagementClasses\ManageVehicleType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\MVS_Enum\MVS_Enum.csproj">
+      <Project>{b9881b2e-3e98-4f93-af59-0c6d0a2b6a5e}</Project>
+      <Name>MVS_Enum</Name>
+    </ProjectReference>
     <ProjectReference Include="..\UtilityLibrary\UtilityLibrary.csproj">
       <Project>{057591f1-0541-4807-8437-7b4d86f65c2d}</Project>
       <Name>UtilityLibrary</Name>

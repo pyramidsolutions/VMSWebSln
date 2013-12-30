@@ -6,17 +6,17 @@ using System.Threading.Tasks;
 
 namespace MVS_BLL.CustomDataObjects
 {
-    class ImprovementObject
+    public class ImprovementObject
     {
         public ImprovementObject()
         { }
 
-        private string sp_name;
+        private int  sp_id;
 
-        public string SP_Name
+        public int SP_ID
         {
-            get { return sp_name; }
-            set { sp_name = value; }
+            get { return sp_id; }
+            set { sp_id = value; }
         }
 
         private int stock_code;
@@ -49,6 +49,14 @@ namespace MVS_BLL.CustomDataObjects
         {
             get { return improvement_name; }
             set { improvement_name = value; }
+        }
+
+        private bool disable;
+
+        public bool Disable
+        {
+            get { return disable; }
+            set { disable = value; }
         }
     }
 }

@@ -59,16 +59,71 @@ namespace UtilityLibrary
             return command;
         }
 
-
+        public static SqlCommand PrepareReadCommand(string storedProcName, SqlConnection sqlConn)
+        {
+            SqlCommand command = new SqlCommand(storedProcName, sqlConn);
+            command.CommandType = CommandType.StoredProcedure;
+            
+            return command;
+        }
         
 
         public static string readDBString(DataRow row, string fieldName)
         {
             if (!DBNull.Value.Equals(row[fieldName]))
-                return (string)row[fieldName] + " ";
+                return row[fieldName] + " ";
             else
                 return String.Empty;
         }
-   
+
+        public static byte[] readDBImage(DataRow row, string fieldName)
+        {
+            if (!DBNull.Value.Equals(row[fieldName]))
+                return (byte[])row[fieldName];
+            else
+                return null;
+        }
+
+        public static bool readDBBool(DataRow row, string fieldName)
+        {
+            if (!DBNull.Value.Equals(row[fieldName]))
+                return (bool)row[fieldName];
+            else
+                return false;
+        }
+
+        public static DateTime readDBDate(DataRow row, string fieldName)
+        {
+            if (!DBNull.Value.Equals(row[fieldName]))
+                return (DateTime)row[fieldName];
+            else
+                return DateTime.Now;
+        }
+
+        public static decimal readDBDecimal(DataRow row, string fieldName)
+        {
+            if (!DBNull.Value.Equals(row[fieldName]))
+                return (Decimal)row[fieldName];
+            else
+                return 0;
+        }
+
+        public static int readDBInt(DataRow row, string fieldName)
+        {
+            if (!DBNull.Value.Equals(row[fieldName]))
+                return (int)row[fieldName];
+            else
+                return 0;
+        }
+
+        public static DataTable CloneTable(DataTable originalTable)
+        {
+
+            DataTable newTable;
+            newTable = originalTable.Clone();
+
+            return newTable;
+
+        }
     }
 }

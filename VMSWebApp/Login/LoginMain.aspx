@@ -20,7 +20,7 @@
                 <a class="hiddenanchor" id="tologin"></a>
                 <div id="wrapper">
                     <div id="login" class="animate form">
-                        <form autocomplete="on">
+                        
                             <h1>Log in</h1>
                             <p>
                                 <label for="username" class="uname" data-icon="u">Your email or username </label>
@@ -37,7 +37,7 @@
                                 Forgot your password ?
 									<a href="#toregister" class="to_register" runat="server" id="btnForgotPassword">Click here</a>
                             </p>
-                        </form>
+                        
                     </div>
 
 

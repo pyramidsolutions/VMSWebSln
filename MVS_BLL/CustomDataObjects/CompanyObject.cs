@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MVS_BLL.CustomDataObjects
 {
-    class CompanyObject
+    public class CompanyObject
     {
         private string Company_Name;
 
@@ -89,9 +89,9 @@ namespace MVS_BLL.CustomDataObjects
             get { return VAT_Number; }
             set { VAT_Number = value; }
         }
-        private decimal VAT_percentage;
+        private int VAT_percentage;
 
-        public decimal VAT_percentageProp
+        public int VAT_percentageProp
         {
             get { return VAT_percentage; }
             set { VAT_percentage = value; }

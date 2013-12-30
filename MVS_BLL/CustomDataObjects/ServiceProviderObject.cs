@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace MVS_BLL.CustomDataObjects
 {
-    class ServiceProviderObject
+    public class ServiceProviderObject
     {
         public ServiceProviderObject()
         { }
 
-        private string category;
+        private int category;
 
-        public string Category
+        public int Category
         {
             get { return category; }
             set { category = value; }

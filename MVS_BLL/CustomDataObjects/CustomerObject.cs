@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MVS_BLL.CustomDataObjects
 {
-    class CustomerObject
+    public class CustomerObject
     {
         public CustomerObject()
         { }
@@ -78,9 +78,9 @@ namespace MVS_BLL.CustomDataObjects
             get { return Email; }
             set { Email = value; }
         }
-        private string Wholesale_Customer;
+        private bool Wholesale_Customer;
 
-        public string Wholesale_CustomerProp
+        public bool Wholesale_CustomerProp
         {
             get { return Wholesale_Customer; }
             set { Wholesale_Customer = value; }

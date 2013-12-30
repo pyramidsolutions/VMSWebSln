@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MVS_BLL.CustomDataObjects
 {
-    class ModelObject
+    public class ModelObject
     {
         public ModelObject()
         { }
